@@ -1,0 +1,288 @@
+﻿2021-12-03T10:47:02.5073387+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-12-03T10:47:02.5075156+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework netcore31 in x64 mode execution started
+2021-12-03T10:47:02.5075199+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-12-03T10:47:02.5101328+01:00;VSTestExecutionThread;Info;Current UserName: 'jnovak', MachineName: 'WMCL432'
+2021-12-03T10:47:02.5455404+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowProject4.dll
+2021-12-03T10:47:02.5458489+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\jnovak\source\repos\SpecFlowProject4\TestResults" (default)
+2021-12-03T10:47:02.5459338+01:00;VSTestExecutionThread;Info;Profile: 
+2021-12-03T10:47:02.5997027+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\jnovak\source\repos\SpecFlowProject4\TestResults\Unnamed project__2021-12-03T104702.log
+2021-12-03T10:47:02.6072090+01:00;Thread#12;Info;Checking activation
+2021-12-03T10:47:02.7212762+01:00;Thread#12;Info;Activated.
+2021-12-03T10:47:02.7216402+01:00;Thread#12;Info;Activation check completed
+2021-12-03T10:47:02.7218137+01:00;Thread#12;Info;Starting test run
+2021-12-03T10:47:02.8292265+01:00;Thread#12;Info;Discovering target: Default
+2021-12-03T10:47:02.8294979+01:00;Thread#12;Info;Discovering tests from assembly: C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowProject4.dll
+2021-12-03T10:47:02.9834464+01:00;Thread#12;Info;Discovered tests from assembly: C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowProject4.dll
+2021-12-03T10:47:02.9856808+01:00:Test Suite Dump
+2021-12-03T10:47:02.9887989+01:00:#0: Unnamed project/ - 
+2021-12-03T10:47:02.9888440+01:00:#1: Default - 
+2021-12-03T10:47:02.9888528+01:00:#2: SpecFlowProject4 - 
+2021-12-03T10:47:02.9888593+01:00:#3: SearchingTest - 
+2021-12-03T10:47:02.9914440+01:00:#4: Testing google homepage searchbar - TestAssembly:SpecFlowProject4/Feature:SearchingTest/Scenario:Testing+google+homepage+searchbar
+2021-12-03T10:47:02.9916148+01:00:#5: Testing google search pictures link - TestAssembly:SpecFlowProject4/Feature:SearchingTest/Scenario:Testing+google+search+pictures+link
+2021-12-03T10:47:02.9916525+01:00:#6: Testing google search videos link - TestAssembly:SpecFlowProject4/Feature:SearchingTest/Scenario:Testing+google+search+videos+link
+2021-12-03T10:47:02.9916650+01:00:#7: Testing google search books link - TestAssembly:SpecFlowProject4/Feature:SearchingTest/Scenario:Testing+google+search+books+link
+2021-12-03T10:47:02.9917771+01:00:End: Test Suite Dump
+2021-12-03T10:47:03.0160596+01:00:Thread#0:Scheduler: get next test for thread 0
+2021-12-03T10:47:03.0198648+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-12-03T10:47:03.0200606+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-12-03T10:47:03.0280569+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-12-03T10:47:03.0280761+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-12-03T10:47:03.0280807+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-12-03T10:47:03.0280862+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-12-03T10:47:03.0292794+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-12-03T10:47:03.0319689+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-12-03T10:47:03.0395253+01:00:Thread #0: creating new test thread executor for SpecFlowProject4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-12-03T10:47:03.0476907+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-12-03T10:47:03.0480660+01:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-12-03T10:47:03.0532119+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-12-03T10:47:03.0562892+01:00:starting Out Of Process Executor
+2021-12-03T10:47:03.0585388+01:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-12-03T10:47:03.0634321+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-12-03T10:47:03.0634645+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-12-03T10:47:03.0656174+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:47:03.0663112+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-12-03T10:47:03.0664844+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-12-03T10:47:03.0665373+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:47:03.0669165+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-12-03T10:47:03.0679416+01:00:Tfm: netcoreapp3.1
+2021-12-03T10:47:03.0679796+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-12-03T10:47:03.0679838+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-12-03T10:47:03.0681203+01:00:[AssemblyCache] Found file 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-12-03T10:47:03.0688318+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-12-03T10:47:03.0699124+01:00:Starting callback TCP Rpc server
+2021-12-03T10:47:03.1111410+01:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-12-03T10:47:03.1112131+01:00:Started callback TCP Rpc server on port 32768
+2021-12-03T10:47:03.1112220+01:00:Starting logger TCP Rpc server
+2021-12-03T10:47:03.1151644+01:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-12-03T10:47:03.1152234+01:00:Started logger TCP Rpc server on port 32769
+2021-12-03T10:47:03.2863233+01:00:Executing test executor at 'dotnet' 'exec "C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 22148 --uniqueId "2021-12-03T104702" --outputFolder "C:\Users\jnovak\source\repos\SpecFlowProject4\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:47:03.3192083+01:00:Executor with PID 1440 has been started successfully.
+2021-12-03T10:47:03.3240339+01:00:Out of Process Executor 1440 started
+2021-12-03T10:47:03.3240522+01:00:Waiting for endpoint
+2021-12-03T10:47:03.8853878+01:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-12-03T10:47:03.8854156+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-12-03T10:47:03.8854206+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-12-03T10:47:03.8854263+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:47:03.8854296+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-12-03T10:47:03.8855141+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-12-03T10:47:03.8855597+01:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:47:03.8855650+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-12-03T10:47:03.8855960+01:00:Tfm: netcoreapp3.1
+2021-12-03T10:47:03.8856016+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-12-03T10:47:03.8856136+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-12-03T10:47:03.8857176+01:00:[AssemblyCache] Found file 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-12-03T10:47:03.8864681+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-12-03T10:47:04.1846249+01:00:Remote executor port received: 32770
+2021-12-03T10:47:04.1854043+01:00:Creating executor TCP client on port 32770
+2021-12-03T10:47:04.1861906+01:00:Created executor TCP client on port 32770
+2021-12-03T10:47:04.1862106+01:00:Connecting to remote executor TCP server
+2021-12-03T10:47:04.1886273+01:00:Connected remote executor TCP server
+2021-12-03T10:47:04.1889352+01:00:trying to connect to Out of Process Executor the 1 attempt
+2021-12-03T10:47:04.1889480+01:00:Connection to Out of Process Executor established in the 1 attempt
+2021-12-03T10:47:04.4186568+01:00:2021-12-03T10:47:04.4163675+01:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowProject4.dll on test thread #0
+2021-12-03T10:47:04.4253095+01:00:Endpoint 1440 started
+2021-12-03T10:47:04.4466209+01:00:2021-12-03T10:47:04.4461330+01:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-12-03T10:47:04.5804624+01:00:2021-12-03T10:47:04.5799443+01:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-12-03T10:47:04.5847227+01:00:2021-12-03T10:47:04.5842669+01:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-12-03T10:47:04.5887402+01:00:2021-12-03T10:47:04.5882275+01:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\jnovak\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-12-03T10:47:04.7251608+01:00:2021-12-03T10:47:04.7237821+01:00:Thread#0:T:-> Loading plugin C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowProject4.dll
+2021-12-03T10:47:04.7303718+01:00:2021-12-03T10:47:04.7271596+01:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-12-03T10:47:04.7339689+01:00:2021-12-03T10:47:04.7316434+01:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-12-03T10:47:04.7419101+01:00:2021-12-03T10:47:04.7351393+01:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\jnovak\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-12-03T10:47:04.8061403+01:00:2021-12-03T10:47:04.8050844+01:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-12-03T10:47:04.8070391+01:00:2021-12-03T10:47:04.8067138+01:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-12-03T10:47:04.8081947+01:00:2021-12-03T10:47:04.8077143+01:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\jnovak\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-12-03T10:47:04.8180433+01:00:2021-12-03T10:47:04.8175323+01:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowProject4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-12-03T10:47:04.8191108+01:00:2021-12-03T10:47:04.8186146+01:00:Thread#0:T:-> Loading plugin C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-12-03T10:47:04.8219010+01:00:2021-12-03T10:47:04.8213640+01:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2021-12-03T10:47:04.8226995+01:00:2021-12-03T10:47:04.8223780+01:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-12-03T10:47:04.8237211+01:00:2021-12-03T10:47:04.8232738+01:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\jnovak\.nuget\packages\specflow.plus.livingdocplugin\3.9.57\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-12-03T10:47:04.8269838+01:00:2021-12-03T10:47:04.8264929+01:00:Thread#0:T:-> Loading plugin C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-12-03T10:47:04.8382475+01:00:2021-12-03T10:47:04.8377385+01:00:Thread#0:T:-> Using default config
+2021-12-03T10:47:04.8507239+01:00:2021-12-03T10:47:04.8502012+01:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-12-03T10:47:04.8514044+01:00:2021-12-03T10:47:04.8511014+01:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-12-03T10:47:04.8523956+01:00:2021-12-03T10:47:04.8519874+01:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\jnovak\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-12-03T10:47:04.8543518+01:00:2021-12-03T10:47:04.8538000+01:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-12-03T10:47:04.8551741+01:00:2021-12-03T10:47:04.8547729+01:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-12-03T10:47:04.8565397+01:00:2021-12-03T10:47:04.8560955+01:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\jnovak\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-12-03T10:47:04.8633552+01:00:2021-12-03T10:47:04.8628221+01:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-12-03T10:47:04.8639950+01:00:2021-12-03T10:47:04.8636444+01:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-12-03T10:47:04.8650577+01:00:2021-12-03T10:47:04.8645931+01:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\jnovak\.nuget\packages\microsoft.testplatform.objectmodel\17.0.0\lib\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-12-03T10:47:04.9141461+01:00:2021-12-03T10:47:04.9136919+01:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-12-03T10:47:04.9147784+01:00:2021-12-03T10:47:04.9144566+01:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2021-12-03T10:47:04.9158239+01:00:2021-12-03T10:47:04.9153763+01:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\jnovak\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2021-12-03T10:47:05.0260042+01:00:Thread#0: Test #4/0 is started on thread #0
+2021-12-03T10:47:05.0879004+01:00:2021-12-03T10:47:05.0870094+01:00:Thread#0:B:Given Google homepage searchbard on this environment
+2021-12-03T10:47:05.0885848+01:00:2021-12-03T10:47:05.0882621+01:00:Thread#0:B:  --- table step argument ---
+2021-12-03T10:47:05.0893301+01:00:2021-12-03T10:47:05.0889486+01:00:Thread#0:B:  | Browser | BrowserVersion | Os         |
+2021-12-03T10:47:05.0900519+01:00:2021-12-03T10:47:05.0897515+01:00:Thread#0:B:  | Chrome  | 95.0           | Windows 10 |
+2021-12-03T10:47:05.1092516+01:00:2021-12-03T10:47:05.1005573+01:00:Assembly resolving WebDriver, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+2021-12-03T10:47:05.1101325+01:00:2021-12-03T10:47:05.1097518+01:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2021-12-03T10:47:05.1111763+01:00:2021-12-03T10:47:05.1107362+01:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\jnovak\.nuget\packages\selenium.webdriver\4.1.0\lib\netstandard2.1\WebDriver.dll'
+2021-12-03T10:47:05.8853915+01:00:2021-12-03T10:47:05.7531717+01:00:Assembly resolving Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2021-12-03T10:47:05.8955434+01:00:2021-12-03T10:47:05.8865967+01:00:[AssemblyCache] Trying to resolve 'Newtonsoft.Json' from .deps.json file
+2021-12-03T10:47:05.9106543+01:00:2021-12-03T10:47:05.8972460+01:00:[AssemblyCache] Resolved 'Newtonsoft.Json' to 'C:\Users\jnovak\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll'
+2021-12-03T10:47:10.5558928+01:00:2021-12-03T10:47:10.5351219+01:00:Thread#0:T:done: StepDefinition.GivenGoogleHomepageSearchbardOnThisEnvironment(<table>) (5.4s)
+2021-12-03T10:47:10.5625869+01:00:2021-12-03T10:47:10.5595920+01:00:Thread#0:B:And Left click on searchbar
+2021-12-03T10:47:10.7334710+01:00:2021-12-03T10:47:10.7056715+01:00:Thread#0:T:done: StepDefinition.GivenLeftClickOnSearchbar() (0.1s)
+2021-12-03T10:47:10.7460565+01:00:2021-12-03T10:47:10.7446620+01:00:Thread#0:B:Then Add some text you want to search for
+2021-12-03T10:47:10.9057041+01:00:2021-12-03T10:47:10.8697824+01:00:Thread#0:T:done: StepDefinition.ThenAddSomeTextYouWantToSearchFor() (0.1s)
+2021-12-03T10:47:10.9074227+01:00:2021-12-03T10:47:10.9064038+01:00:Thread#0:B:Then The searchbar should start giving you tips
+2021-12-03T10:47:14.9157977+01:00:2021-12-03T10:47:14.9098853+01:00:Thread#0:T:done: StepDefinition.ThenTheSearchbarShouldStartGivingYouTips() (4.0s)
+2021-12-03T10:47:14.9469308+01:00:2021-12-03T10:47:14.9315233+01:00:Thread#0:B:Then Click on enter
+2021-12-03T10:47:18.4113155+01:00:2021-12-03T10:47:18.4085737+01:00:Thread#0:T:done: StepDefinition.ThenClickOnEnter() (3.5s)
+2021-12-03T10:47:18.4150582+01:00:2021-12-03T10:47:18.4130383+01:00:Thread#0:B:Then You are able to see results of the search
+2021-12-03T10:47:22.4224635+01:00:2021-12-03T10:47:22.4202497+01:00:Thread#0:T:done: StepDefinition.ThenYouAreAbleToSeeResultsOfTheSearch() (4.0s)
+2021-12-03T10:47:22.4706055+01:00:Thread#0:Scheduler: get next test for thread 0
+2021-12-03T10:47:22.4707316+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-12-03T10:47:22.4707519+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-12-03T10:47:22.4708612+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-12-03T10:47:22.4708671+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-12-03T10:47:22.4708692+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2021-12-03T10:47:22.4708717+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-12-03T10:47:22.4709072+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-12-03T10:47:22.4709544+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-12-03T10:47:22.4750538+01:00:2021-12-03T10:47:22.4745199+01:00:Thread#0:T:Selenium webdriver quit
+2021-12-03T10:47:23.0044241+01:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 17.9764784 seconds
+2021-12-03T10:47:23.0087853+01:00:Thread#0: Test #5/0 is started on thread #0
+2021-12-03T10:47:23.0124544+01:00:2021-12-03T10:47:23.0118845+01:00:Thread#0:B:Given Google homepage searchbard on this environment
+2021-12-03T10:47:23.0131722+01:00:2021-12-03T10:47:23.0127857+01:00:Thread#0:B:  --- table step argument ---
+2021-12-03T10:47:23.0137886+01:00:2021-12-03T10:47:23.0134894+01:00:Thread#0:B:  | Browser | BrowserVersion | Os         |
+2021-12-03T10:47:23.0143357+01:00:2021-12-03T10:47:23.0140354+01:00:Thread#0:B:  | Chrome  | 95.0           | Windows 10 |
+2021-12-03T10:47:27.5094343+01:00:2021-12-03T10:47:27.5076752+01:00:Thread#0:T:done: StepDefinition.GivenGoogleHomepageSearchbardOnThisEnvironment(<table>) (4.5s)
+2021-12-03T10:47:27.5164310+01:00:2021-12-03T10:47:27.5154003+01:00:Thread#0:B:And Left click on searchbar
+2021-12-03T10:47:27.7341804+01:00:2021-12-03T10:47:27.7327925+01:00:Thread#0:T:done: StepDefinition.GivenLeftClickOnSearchbar() (0.2s)
+2021-12-03T10:47:27.7650564+01:00:2021-12-03T10:47:27.7354204+01:00:Thread#0:B:Then Add some text you want to search for
+2021-12-03T10:47:28.2091521+01:00:2021-12-03T10:47:28.2075979+01:00:Thread#0:T:done: StepDefinition.ThenAddSomeTextYouWantToSearchFor() (0.4s)
+2021-12-03T10:47:28.2121868+01:00:2021-12-03T10:47:28.2116951+01:00:Thread#0:B:Then The searchbar should start giving you tips
+2021-12-03T10:47:32.2160380+01:00:2021-12-03T10:47:32.2147808+01:00:Thread#0:T:done: StepDefinition.ThenTheSearchbarShouldStartGivingYouTips() (4.0s)
+2021-12-03T10:47:32.2281897+01:00:2021-12-03T10:47:32.2245256+01:00:Thread#0:B:Then Click on enter
+2021-12-03T10:47:34.4637462+01:00:2021-12-03T10:47:34.4628302+01:00:Thread#0:T:done: StepDefinition.ThenClickOnEnter() (2.2s)
+2021-12-03T10:47:34.4649451+01:00:2021-12-03T10:47:34.4646593+01:00:Thread#0:B:Then You are able to see results of the search
+2021-12-03T10:47:38.4681568+01:00:2021-12-03T10:47:38.4669415+01:00:Thread#0:T:done: StepDefinition.ThenYouAreAbleToSeeResultsOfTheSearch() (4.0s)
+2021-12-03T10:47:38.4703199+01:00:2021-12-03T10:47:38.4698788+01:00:Thread#0:B:Then Left click on images text
+2021-12-03T10:47:40.7974705+01:00:2021-12-03T10:47:40.7960615+01:00:Thread#0:T:done: StepDefinition.LeftClickOnImagesText() (2.3s)
+2021-12-03T10:47:40.8014918+01:00:Thread#0:Scheduler: get next test for thread 0
+2021-12-03T10:47:40.8015571+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-12-03T10:47:40.8015759+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-12-03T10:47:40.8017180+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-12-03T10:47:40.8017342+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-12-03T10:47:40.8017455+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2021-12-03T10:47:40.8017665+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-12-03T10:47:40.8018853+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-12-03T10:47:40.8019972+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-12-03T10:47:40.8041466+01:00:2021-12-03T10:47:40.8034848+01:00:Thread#0:T:Selenium webdriver quit
+2021-12-03T10:47:41.1657076+01:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 18.1566614 seconds
+2021-12-03T10:47:41.1715353+01:00:Thread#0: Test #6/0 is started on thread #0
+2021-12-03T10:47:41.1774937+01:00:2021-12-03T10:47:41.1767829+01:00:Thread#0:B:Given Google homepage searchbard on this environment
+2021-12-03T10:47:41.1780741+01:00:2021-12-03T10:47:41.1777772+01:00:Thread#0:B:  --- table step argument ---
+2021-12-03T10:47:41.1787593+01:00:2021-12-03T10:47:41.1784910+01:00:Thread#0:B:  | Browser | BrowserVersion | Os         |
+2021-12-03T10:47:41.1793039+01:00:2021-12-03T10:47:41.1790692+01:00:Thread#0:B:  | Chrome  | 95.0           | Windows 10 |
+2021-12-03T10:47:45.8011559+01:00:2021-12-03T10:47:45.7958778+01:00:Thread#0:T:done: StepDefinition.GivenGoogleHomepageSearchbardOnThisEnvironment(<table>) (4.6s)
+2021-12-03T10:47:45.8029837+01:00:2021-12-03T10:47:45.8024125+01:00:Thread#0:B:And Left click on searchbar
+2021-12-03T10:47:45.9816768+01:00:2021-12-03T10:47:45.9793593+01:00:Thread#0:T:done: StepDefinition.GivenLeftClickOnSearchbar() (0.2s)
+2021-12-03T10:47:45.9832259+01:00:2021-12-03T10:47:45.9829252+01:00:Thread#0:B:Then Add some text you want to search for
+2021-12-03T10:47:46.2580913+01:00:2021-12-03T10:47:46.2570057+01:00:Thread#0:T:done: StepDefinition.ThenAddSomeTextYouWantToSearchFor() (0.3s)
+2021-12-03T10:47:46.2607873+01:00:2021-12-03T10:47:46.2594669+01:00:Thread#0:B:Then The searchbar should start giving you tips
+2021-12-03T10:47:50.2638163+01:00:2021-12-03T10:47:50.2632961+01:00:Thread#0:T:done: StepDefinition.ThenTheSearchbarShouldStartGivingYouTips() (4.0s)
+2021-12-03T10:47:50.2654111+01:00:2021-12-03T10:47:50.2647410+01:00:Thread#0:B:Then Click on enter
+2021-12-03T10:47:52.3113962+01:00:2021-12-03T10:47:52.3073135+01:00:Thread#0:T:done: StepDefinition.ThenClickOnEnter() (2.0s)
+2021-12-03T10:47:52.3132833+01:00:2021-12-03T10:47:52.3129701+01:00:Thread#0:B:Then You are able to see results of the search
+2021-12-03T10:47:56.3174205+01:00:2021-12-03T10:47:56.3159720+01:00:Thread#0:T:done: StepDefinition.ThenYouAreAbleToSeeResultsOfTheSearch() (4.0s)
+2021-12-03T10:47:56.3201227+01:00:2021-12-03T10:47:56.3191718+01:00:Thread#0:B:Then Left click on videos text
+2021-12-03T10:47:57.7702173+01:00:2021-12-03T10:47:57.7694001+01:00:Thread#0:T:done: StepDefinition.LeftClickOnVideosText() (1.4s)
+2021-12-03T10:47:57.7755789+01:00:Thread#0:Scheduler: get next test for thread 0
+2021-12-03T10:47:57.7756208+01:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2021-12-03T10:47:57.7756280+01:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2021-12-03T10:47:57.7757076+01:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2021-12-03T10:47:57.7757180+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2021-12-03T10:47:57.7757214+01:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2021-12-03T10:47:57.7757288+01:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2021-12-03T10:47:57.7757799+01:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2021-12-03T10:47:57.7758491+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-12-03T10:47:57.7770188+01:00:2021-12-03T10:47:57.7767046+01:00:Thread#0:T:Selenium webdriver quit
+2021-12-03T10:47:58.0966729+01:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 16.9250129 seconds
+2021-12-03T10:47:58.1024157+01:00:Thread#0: Test #7/0 is started on thread #0
+2021-12-03T10:47:58.1075118+01:00:2021-12-03T10:47:58.1057130+01:00:Thread#0:B:Given Google homepage searchbard on this environment
+2021-12-03T10:47:58.1081395+01:00:2021-12-03T10:47:58.1078517+01:00:Thread#0:B:  --- table step argument ---
+2021-12-03T10:47:58.1085910+01:00:2021-12-03T10:47:58.1083272+01:00:Thread#0:B:  | Browser | BrowserVersion | Os         |
+2021-12-03T10:47:58.1090685+01:00:2021-12-03T10:47:58.1088080+01:00:Thread#0:B:  | Chrome  | 95.0           | Windows 10 |
+2021-12-03T10:48:02.6294462+01:00:2021-12-03T10:48:02.6290549+01:00:Thread#0:T:done: StepDefinition.GivenGoogleHomepageSearchbardOnThisEnvironment(<table>) (4.5s)
+2021-12-03T10:48:02.6387178+01:00:2021-12-03T10:48:02.6382147+01:00:Thread#0:B:And Left click on searchbar
+2021-12-03T10:48:02.8420128+01:00:2021-12-03T10:48:02.8410385+01:00:Thread#0:T:done: StepDefinition.GivenLeftClickOnSearchbar() (0.2s)
+2021-12-03T10:48:02.8429193+01:00:2021-12-03T10:48:02.8425305+01:00:Thread#0:B:Then Add some text you want to search for
+2021-12-03T10:48:03.2026144+01:00:2021-12-03T10:48:03.1978119+01:00:Thread#0:T:done: StepDefinition.ThenAddSomeTextYouWantToSearchFor() (0.4s)
+2021-12-03T10:48:03.2046093+01:00:2021-12-03T10:48:03.2039562+01:00:Thread#0:B:Then The searchbar should start giving you tips
+2021-12-03T10:48:07.2067849+01:00:2021-12-03T10:48:07.2063893+01:00:Thread#0:T:done: StepDefinition.ThenTheSearchbarShouldStartGivingYouTips() (4.0s)
+2021-12-03T10:48:07.2077448+01:00:2021-12-03T10:48:07.2072965+01:00:Thread#0:B:Then Click on enter
+2021-12-03T10:48:09.4455867+01:00:2021-12-03T10:48:09.4452320+01:00:Thread#0:T:done: StepDefinition.ThenClickOnEnter() (2.2s)
+2021-12-03T10:48:09.4483103+01:00:2021-12-03T10:48:09.4462946+01:00:Thread#0:B:Then You are able to see results of the search
+2021-12-03T10:48:13.4521036+01:00:2021-12-03T10:48:13.4505982+01:00:Thread#0:T:done: StepDefinition.ThenYouAreAbleToSeeResultsOfTheSearch() (4.0s)
+2021-12-03T10:48:13.4567045+01:00:2021-12-03T10:48:13.4554332+01:00:Thread#0:B:Then Left click on books text
+2021-12-03T10:48:15.1944550+01:00:2021-12-03T10:48:15.1930998+01:00:Thread#0:T:done: StepDefinition.LeftClickOnBooksText() (1.7s)
+2021-12-03T10:48:15.1963577+01:00:Thread#0:Scheduler: get next test for thread 0
+2021-12-03T10:48:15.1964141+01:00:Thread#:Scheduler: at the end of normal test queue
+2021-12-03T10:48:15.1964271+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-12-03T10:48:15.1964345+01:00:Thread#0:Scheduler: No more tests for thread
+2021-12-03T10:48:15.1982258+01:00:2021-12-03T10:48:15.1979134+01:00:Thread#0:T:Selenium webdriver quit
+2021-12-03T10:48:15.5119907+01:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 17.4094202 seconds
+2021-12-03T10:48:15.5269461+01:00:2021-12-03T10:48:15.5265601+01:00:Got Deinitialize Signal
+2021-12-03T10:48:15.5333374+01:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-12-03T10:48:15.5365772+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-12-03T10:48:15.5383496+01:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-12-03T10:48:15.5408583+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-12-03T10:48:15.5408838+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-12-03T10:48:15.5409124+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-12-03T10:48:15.5409262+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:48:15.5409366+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-12-03T10:48:15.5410089+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-12-03T10:48:15.5410577+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1'
+2021-12-03T10:48:15.5410716+01:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-12-03T10:48:15.5411783+01:00:Tfm: netcoreapp3.1
+2021-12-03T10:48:15.5411845+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-12-03T10:48:15.5411902+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-12-03T10:48:15.5412477+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-12-03T10:48:15.5412944+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\jnovak\source\repos\SpecFlowProject4\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-12-03T10:48:15.5538514+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-12-03T10:48:15.5538722+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-12-03T10:48:15.5540046+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-12-03T10:48:15.5540664+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-12-03T10:48:15.5543784+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-12-03T10:48:15.5543875+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-12-03T10:48:15.5544530+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-12-03T10:48:15.5545072+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-12-03T10:48:15.5549583+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-12-03T10:48:15.5549797+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-12-03T10:48:15.5550527+01:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-12-03T10:48:15.5551049+01:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-12-03T10:48:15.5567391+01:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-12-03T10:48:15.5706905+01:00:Thread#-1:Scheduler: get next test for thread -1
+2021-12-03T10:48:15.5707380+01:00:Thread#:Scheduler: at the end of normal test queue
+2021-12-03T10:48:15.5707435+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-12-03T10:48:15.5740349+01:00;Thread#12;Info;test run finished
+2021-12-03T10:48:15.5743572+01:00;Thread#12;Info;publishing test results
+2021-12-03T10:48:15.5748891+01:00;Thread#12;Info;Not publishing results.
+2021-12-03T10:48:15.5751309+01:00;Thread#12;Info;test results published
+2021-12-03T10:48:15.5752220+01:00;Thread#12;Info;generating reports
+2021-12-03T10:48:15.6843555+01:00;Thread#12;Info;Starting external report generation process
+2021-12-03T10:48:17.8525115+01:00;Thread#12;Info;Successfully generated reports.
+2021-12-03T10:48:17.8562326+01:00;Thread#12;Info;Successfully generated reports
+2021-12-03T10:48:17.8687930+01:00:Total: 4
+2021-12-03T10:48:17.8720631+01:00:Succeeded: 4
+2021-12-03T10:48:17.8726758+01:00:Ignored: 0
+2021-12-03T10:48:17.8731747+01:00:Pending: 0
+2021-12-03T10:48:17.8731844+01:00:Skipped: 0
+2021-12-03T10:48:17.8736372+01:00:Failed: 0
+2021-12-03T10:48:17.8829166+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-12-03T10:48:17.8830362+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\jnovak\source\repos\SpecFlowProject4\TestResults\Unnamed project__2021-12-03T104702.html'
+========== End of log file ==========
